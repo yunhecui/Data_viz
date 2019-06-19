@@ -1,0 +1,25 @@
+.bar {
+  fill: LightGray;
+  stroke: black;
+}
+
+.bar:hover{
+  fill:SteelBlue;
+}
+
+.axis--y path{
+  display:none;
+  /* 去掉轴那条线 */
+}
+
+.label{
+  fill: black;
+  font-size: 20px;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  background: Beige;
+}
